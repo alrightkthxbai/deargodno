@@ -29,7 +29,7 @@ def change_degree(degree, direction):
         elif direction == 'R':
             return WEST
 
-with io.open('inputs/day01.txt','r') as f:
+with io.open('input/day1.txt','r') as f:
     # here are your orders snake
     instructions = [instruct.strip() for instruct in f.readline().split(', ') if len(instruct.strip()) > 0]
 
