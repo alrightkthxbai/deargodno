@@ -6,7 +6,7 @@ MAX_J = len(KEYPAD[0]) - 1
 
 print('PART 1')
 # SNAKE TAKE THE ORDERS GODDAMNIT
-with io.open('inputs/day02.txt','r') as f:
+with io.open('inputs/day2.txt','r') as f:
     line_nb = 0
     for instructions in f:
         for instruction in instructions:
@@ -39,7 +39,7 @@ MAX_J = len(KEYPAD[0]) - 1
 print('')
 print('PART 2')
 #gotta print that sorry ^ my dude
-with io.open('inputs/day02.txt','r') as f:
+with io.open('inputs/day2.txt','r') as f:
 #I need to get iT
     line_nb = 0
     for instructions in f:
