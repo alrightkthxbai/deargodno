@@ -1,4 +1,4 @@
-#Here we set up the keypad shit that Couldy with a Chance of Meatballs did except not fake
+#Here we set up the keypad shit that Cloudy with a Chance of Meatballs did except not fake
 KEYPAD = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 i, j = 1, 1
 MAX_I = len(KEYPAD) - 1
